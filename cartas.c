@@ -34,7 +34,7 @@ int main(){
     printf("digite o nome da cidade:");
     scanf(" %[^\n]",nomecidade1);           // lê o nome da cidade
 
-    printf("digite a populacao;");
+    printf("digite a populacao:");
     scanf("%d",&populacao1);               // lê a população como número inteiro
 
     printf("digite a area(em km²):");
@@ -47,7 +47,7 @@ int main(){
     scanf("%d",&pontosturisticos1);        // lê o número de pontos turísticos
 
     // calculos da carta 1
-    densidade1 = populacao1 / area1                    // calculo da densidade populacional da carta 1
+    densidade1 = populacao1 / area1;                   // calculo da densidade populacional da carta 1
     PIBpercapita1 = (PIB1*1000000000) / populacao1;    // calculo do PIB per capita da carta 1
 
     // leitura dados carta 2(mesmo processo carta 1)
@@ -75,7 +75,7 @@ int main(){
 
     //calculos da carta 2
     densidade2 = populacao2 / area2;                    //calculo da densidade populacional da carta 2
-    PIBpercapita = (PIB2 * 1000000000) / populacao2;    //calculo PIB per capita da carta 2
+    PIBpercapita2 = (PIB2 * 1000000000) / populacao2;    //calculo PIB per capita da carta 2
 
     // exibição dos dados carta 1
     printf("\n-dados carta 1-\n");                                
